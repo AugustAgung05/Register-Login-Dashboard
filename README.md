@@ -1,7 +1,7 @@
 
 # Registrasi, login dan dashboard pages
 
-Gambaran untuk membuat halaman registrasi, login, dan dashoard sederhana menggunakan PHP dan MySql
+Gambaran untuk membuat halaman registrasi, login, dan dashboard sederhana menggunakan PHP dan MySql
 
 
 ## Penginstallan
@@ -14,13 +14,13 @@ Ikuti kode dibawah ini untuk mengclone repository ini
 ```bash
   git clone https://github.com/AugustAgung05/Register-Login-Dashboard.git
 ```
-Simpan hasil clone pada folder
+Simpan hasil clone di dalam folder xampp kemudian htdocs
 ```bash
   xampp -> htdocs
 ```
 Buka XAMPP, kemudian start Apache dan MySql anda.
 
-Tekan action "Admin" pada MySql lalu akan terbuka dashboard PHPMYADMIN. kemudian
+Tekan action "Admin" pada MySql lalu akan terbuka dashboard PHPMYADMIN. Kemudian
 1. Buat database baru dengan nama 
 ```bash
   login_php
@@ -53,7 +53,7 @@ Tekan action "Admin" pada MySql lalu akan terbuka dashboard PHPMYADMIN. kemudian
 ```
 Buka Web Browser anda dan ketikkan
 ```bash
-  localhost/[nama_folder_anda]/login.php
+  localhost/Register-Login-Dashboard/login.php
 ```
 ## Screenshots
 ![Register Page](Screenshot/Screenshot%202024-03-02%20151434.png)
