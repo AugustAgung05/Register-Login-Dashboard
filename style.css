@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(Resource/zyro-image.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    width: 420px;
+    background:transparent;
+    border: 2px solid rgba(255, 255, 255, .6);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, .4);
+    color: #fff;
+    border-radius: 10px;
+    padding: 30px 40px;
+}
+.dashboard{
+    width: 500px;
+}
+.container h1{
+    font-size: 36px;
+    text-align: center;
+}
+.container .input-box{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.container .input-box input{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    border: 2px solid rgba(255, 255, 255, .3);
+    border-radius: 40px;
+    color: #fff;
+    padding: 20px 50px 20px 40px;
+}
+.container .input-box input::placeholder{
+    color: #fff;
+}
+.container .input-box i {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+}
+.container .input-box .eye{
+    position: absolute;
+    right: 55px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 20px;
+    cursor: pointer;
+}
+.container .remember-forgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: -15px 0 15px;
+}
+.container .message{
+    color: #ff6565;
+    font-weight: 600;
+    text-align: center;
+    margin: 8px 0 -10px;
+}
+.container .message.register-message{
+    color: #aaff3c;
+    margin: 10px 0 0;
+}
+.container .remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 5px;
+}
+.container .remember-forgot a{
+    color: #fff;
+    text-decoration: none;
+}
+.container .remember-forgot a:hover{
+    text-decoration: underline;
+}
+.container .btn{
+    width: 100%;
+    height: 46px;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    cursor: pointer;
+    font-size: 18px;
+    color: #333;
+}
+.container .register{
+    font-size: 15px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.container .register p a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.container .register p a:hover{
+    text-decoration: underline;
+}
+.container .table-container{
+    margin: 10px auto;
+}
+.container .table-container .table-head{
+    width: auto;
+    text-align: left;
+}
+.container .table-container .space{
+    width: 20px;
+}
+.container .table-container .table-info{
+    width: auto;
+    text-align: right;
+}
+.container .logout{
+    margin: 16px 0 0;
+}
+.container .nav-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0;
+}
+.container .nav-container button{
+    width: 150px;
+}
+.container .nav-container a{
+    text-decoration: none;
+    color: #333;
+}
